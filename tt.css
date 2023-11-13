@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #bfb5af;
+}
+
+header {
+    text-align: center;
+    background-color: #ece2d0;
+    color: black;
+    padding: 10px;
+}
+
+.me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #d5b3b2;
+    margin: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    display: block;
+}
+
+
+
+.contact2 {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    /* 調整 padding */
+    text-align: left;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    font-size: 1.5em;
+    color: #007BFF;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.progress-container {
+    width: 300px;
+    height: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.progress-bar {
+    height: 100%;
+    border-radius: 10px;
+    background-color: blueviolet;
+    width: 50%;
+    transition: width 0.3s ease-in-out;
+}
+
+.progress-bar-java {
+    height: 100%;
+    border-radius: 10px;
+    background-color: blueviolet;
+    width: 50%;
+    transition: width 0.3s ease-in-out;
+}
+
+.progress-bar-Css {
+    height: 100%;
+    border-radius: 10px;
+    background-color: blueviolet;
+    width: 60%;
+    transition: width 0.3s ease-in-out;
+}
+
+.progress-bar-Html {
+    height: 100%;
+    border-radius: 10px;
+    background-color: blueviolet;
+    width: 65%;
+    transition: width 0.3s ease-in-out;
+}
+
+h6 {
+    text-align: center;
+}
+
+h2 {
+    font-family: "標楷體";
+    font-size: 50px;
+    text-align: center;
+
+}
+
+p {
+    font-family: "標楷體";
+    font-size: 20px;
+    text-align: center;
+}
