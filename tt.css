@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "標楷體";
     margin: 20px;
     background-color: #bfb5af;
 }
@@ -10,6 +10,7 @@ header {
     color: black;
     padding: 10px;
 }
+
 
 .me {
     display: flex;
@@ -51,7 +52,7 @@ table {
 
 th,
 td {
-    border: 1px solid #ddd;
+    border: 20px solid #ddd;
     padding: 12px;
     /* 調整 padding */
     text-align: left;
@@ -65,7 +66,7 @@ img {
 section {
     font-size: 1.5em;
     color: #007BFF;
-    margin-top: 20px;
+    margin-top: 15px;
     text-align: center;
 }
 
@@ -122,5 +123,39 @@ h2 {
 p {
     font-family: "標楷體";
     font-size: 20px;
-    text-align: center;
+    text-align: left;
+}
+
+.personal {
+    font-family: "標楷體";
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.motto {
+    max-width: 100%;
+    font-family: "標楷體";
+    font-size: 50px;
+    font-style: initial;
+
+
+}
+
+.club {
+    background-image: url(img/background2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Skills {
+    background-image: url(img/background3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
